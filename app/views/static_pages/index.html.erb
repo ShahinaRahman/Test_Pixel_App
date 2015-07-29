@@ -1,2 +1,8 @@
-<h1>StaticPages#index</h1>
-<p>Welcome! The date and time is <%= Time.now%></p>
+<div class="container">
+	<h3>StaticPages#index</h3>
+	<p>Welcome! The date is <%= Time.now.strftime("%d %A %B %Y")%></p>
+</div>	
+
+<div class="container">
+	<%= image_tag("baby_panda.jpg")%>
+</div>	
