@@ -1,0 +1,19 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+th {
+	padding: 50px;
+	padding-right: 200px;
+	font-size: 1.5em;
+}
+
+a {
+	padding: 50px;
+	font-size: 1em;
+}
+
+a:hover {
+	color: #000;
+	background-color: transparent;
+}
