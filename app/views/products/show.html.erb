@@ -18,8 +18,16 @@
 		  <strong>Description:</strong>
 		  <%= @product.description %>
 		</p>
-	</div>	
+	</div>
 
+	<div class="container">
+		<p>
+		  <strong>Colour:</strong>
+		  <%= @product.color %>
+		</p>
+	</div>		
 
-<%= link_to 'Edit', edit_product_path(@product) %> |
-<%= link_to 'Back', products_path %>
+<div class="container">
+	<%= link_to 'Edit', edit_product_path(@product) %> |
+	<%= link_to 'Back', products_path %>
+</div>	
