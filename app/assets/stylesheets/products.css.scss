@@ -2,13 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-th {
-	padding-right: 200px;
-	font-size: 1.5em;
-}
+table {
+	width: 100%;
+	word-wrap: break-word;
+	table-layout: fixed;
+}	
 
-td {
-	padding-top: 20px;
+th {
+	font-size: 1.5em;
 }
 
 .new_product {
@@ -22,4 +23,50 @@ a {
 a:hover {
 	color: #000;
 	background-color: transparent;
+}
+
+.price, .price_row {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.show {
+	padding-left: 50px; 
+}
+
+.image_row {
+	padding-top: 30px;
+	padding-bottom: 10px;
+} 
+
+.name_col {
+	width: 15%;
+}
+
+.edit, .destroy {
+	vertical-align: top;
+}
+
+.descrip_col {
+	width: 20%;
+}
+
+.image_col {
+	width: 10%;
+}
+
+.price {
+	width: 10%
+}
+
+.show_col {
+	width: 8%;
+}
+
+.edit_col {
+	width: 4%;
+}
+
+.destroy_col {
+	width: 5%;
 }
