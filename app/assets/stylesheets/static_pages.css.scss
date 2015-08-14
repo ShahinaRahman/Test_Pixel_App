@@ -24,6 +24,12 @@ h3, .time_p {
 	text-align: center;
 }
 
+//Nav
+
+.main_title {
+	margin-top: 80px;
+}
+
 //Index 
 
 img {
@@ -31,4 +37,32 @@ img {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+}
+
+//carousel
+
+.carousel {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.carousel-control {
+	opacity: 0;
+	background-color: #fff;	
+}
+
+a .carousel-control {
+	background-image: none;
+	background-repeat: no-repeat;
+}
+
+a.right.carousel-control, a.left.carousel-control {
+	background-image: none;
+}
+
+.carousel-control:hover,
+.carousel-control:focus {
+	color: #000;
 }
