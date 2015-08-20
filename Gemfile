@@ -49,4 +49,10 @@ gem 'coffee-script-source', '1.8.0'
 
 gem 'bootstrap-sass'
 
+#gem 'pry'
+
+#gem 'pry-debugger'
+
+gem 'byebug'
+
 

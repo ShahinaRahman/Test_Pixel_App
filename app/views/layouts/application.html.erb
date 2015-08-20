@@ -29,9 +29,11 @@
 
       </div> <!-- container -->
     </nav>
+
   <title>School of Pandas</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
   <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+
 
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -48,7 +50,7 @@
 
 <%= yield %>
 
-  <script type="text/javascript">
+  <!--<script type="text/javascript">
     var $root = $('html, body');
       $('.navbar-nav a').click(function() {
           var href = $.attr(this, 'href');
@@ -59,6 +61,6 @@
           });
           return false;
       });
-  </script>
+  </script>-->
 </body>
 </html>
