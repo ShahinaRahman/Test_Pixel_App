@@ -5,5 +5,5 @@
   <td class="image_row"><%= product.image_url %></td>
   <td class="show"><%= link_to 'Show', product %></td>
   <td class="edit"><%= link_to 'Edit', edit_product_path(product) %></td>
-  <td class="destroy"><%= link_to 'Destroy', product, method: :destroy, data: { confirm: 'Are you sure?' } %></td>
+  <td class="destroy"><%= link_to 'Destroy', product, data: {:confirm => 'Are you sure?'}, :method => :delete %></td>
 </tr>
