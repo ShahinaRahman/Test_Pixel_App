@@ -6,4 +6,10 @@ class StaticPagesController < ApplicationController
 	@products = Product.limit(4)
 	end	
 
+	def contact	
+  	end
+
+  	def about
+  	end
+
 end
